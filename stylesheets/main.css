@@ -1,0 +1,100 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+header {
+  background: #C0392B;
+  color: white;
+  height: 50px;
+}
+
+header h1 {
+  float: left;
+  font-size: 26px;
+  padding: 10px 25px;
+}
+
+header nav {
+  float: right;
+  font-size: 12px;
+  padding: 20px 25px;
+}
+
+#links {
+  background: #263238;
+  color: white;
+  height: 35px;
+  width: 100%;
+}
+
+#links li {
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  padding: 12px 10px;
+}
+
+#main {
+  display: inline-block;
+  background: white;
+  height: 80%;
+}
+
+.feature{
+  float: left;
+  width: 65%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0 10px;
+}
+
+.feature img{
+  background: white;
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+}
+
+.feature h1{
+  font-size: 24px;
+  margin: 5px 25px;
+}
+
+.feature p {
+  font-size: 12px;
+  margin: 10px 0px;
+}
+
+.support {
+  float: right;
+  width: 30%;
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 0px;
+}
+
+.support img {
+  float: center;
+  background: white;
+  height: 150px;
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+.support p {
+  font-size: 16px;
+  font-style: bold;
+  margin: 15px 0px;
+}
+
+footer {
+  background: #263238;
+  color: white;
+  height: 60px;
+}
+
+footer p {
+  font-size: 12px;
+  padding: 12px 10px;
+  float: center;
+}
